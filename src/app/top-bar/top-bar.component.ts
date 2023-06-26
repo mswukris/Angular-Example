@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CartService } from '../cart.service';
 
 @Component({
   selector: 'app-top-bar',
@@ -11,7 +12,6 @@ export class TopBarComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
 
 
